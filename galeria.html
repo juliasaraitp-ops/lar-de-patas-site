@@ -39,254 +39,47 @@
   </div>
 </nav>
 
-<!-- Conteúdo Principal da Galeria -->
-    <main class="container my-4">
-        <div class="text-center mb-4">
-                <h2>Nossos Amiguinhos para Adoção</h2>
-                <p class="text-muted">Conheça os cães e gatos que estão à procura de um lar cheio de carinho.</p>
-            </div>
+ <!-- Card 1: Pipoca -->
+<div class="container my-4 text-center">
+    <h2>Nossos amiguinhos para adoção</h2>
+    <p class="text-muted">Conheça os cães e gatos que estão à procura de um lar cheio de carinho.</p>
+    <div class="row g-4">
+     <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+  <img src="img/pipoca_dog.jpg" class="card-img-top" alt="Pipoca">
+  <div class="card-body">
+    <h5 class="card-title">Pipoca</h5>
+    <p class="card-text text-muted">Vira-lata • 2 anos • Porte Médio</p>
+    <p class="card-text">Brincalhão, dócil e cheio de energia para alegrar sua casa.</p>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalPipoca">Ver mais detalhes</a>
+  </div>
+</div>
+    </div>
+    </div>
+</div>
 
-            <!-- Grid de Cards Responsivo: 1 col no mobile, 2 no tablet e 3 no desktop -->
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                
-            <!-- Card 1: Pipoca -->
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/pipoca_dog.jpg" class="card-img-top" alt="Pipoca">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Pipoca</h5>
-                            <p class="card-text text-muted">Vira-lata • 2 anos • Porte Médio</p>
-                            <p class="card-text">Brincalhão, dócil e cheio de energia para alegrar sua casa.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalPipoca">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2: Mel -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/mel_dog.jpg" class="card-img-top" alt="Mel">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Mel</h5>
-                            <p class="card-text text-muted">Vira-lata • 1 ano e meio • Porte Médio</p>
-                            <p class="card-text">Dócil, muito alegre e adorável com todas as pessoas.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalMel">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3: Thor -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/thor_dog.jpg" class="card-img-top" alt="Thor">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Thor</h5>
-                            <p class="card-text text-muted">Vira-lata • 5 anos • Porte Médio/Grande</p>
-                            <p class="card-text">Tranquilo, leal, paciente e um companheiro para todas as horas.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalThor">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4: Luna -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/luna_cat.jpg" class="card-img-top" alt="Luna">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Luna</h5>
-                            <p class="card-text text-muted">Vira-lata (SRD) • 4 meses • Porte Pequeno</p>
-                            <p class="card-text">Curiosa, brincalhona e super carinhosa com ronronar garantido.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalLuna">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 5: Simba -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/simba_cat.jpg" class="card-img-top" alt="Simba">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Simba</h5>
-                            <p class="card-text text-muted">Frajolinha (SRD) • 2 anos • Porte Médio</p>
-                            <p class="card-text">Observador, calmo, elegante e apaixonado por um solzinho.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalSimba">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 6: Oliver -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/oliver_cat.jpg" class="card-img-top" alt="Oliver">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Oliver</h5>
-                            <p class="card-text text-muted">Siamês (SRD) • 1 ano • Porte Pequeno/Médio</p>
-                            <p class="card-text">Elegante, dócil, apegado e com olhos azuis encantadores.</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalOliver">
-                                Ver mais detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-        </div>
-    </main>
-
-    <!-- MODAIS DE INFORMAÇÕES EXTRAS -->
-
-        <!-- Modal 1: Pipoca -->
-        <div class="modal fade" id="modalPipoca" tabindex="-1" aria-labelledby="modalPipocaLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalPipocaLabel">Perfil do Pipoca</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com um sorriso banguela e um olhar cheio de esperança, o Pipoca está pronto para ser a pipoquinha de milho mais amada da sua sala de estar!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Brincalhão, dócil e muito sociável</li>
-                            <li><strong>Saúde:</strong> Castrado, vacinado e vermifugado</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <!-- Modal 2: Mel -->
-        <div class="modal fade" id="modalMel" tabindex="-1" aria-labelledby="modalMelLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalMelLabel">Perfil da Mel</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com um sorriso contagiante e um coração cheio de amor para dar, a Mel está prontinha para iluminar os seus dias e trazer muito aconchego para o seu lar!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Dócil, alegre e carinhosa</li>
-                            <li><strong>Saúde:</strong> Castrada, vacinada e vermifugada</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 3: Thor -->
-        <div class="modal fade" id="modalThor" tabindex="-1" aria-labelledby="modalThorLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalThorLabel">Perfil do Thor</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com uma maturidade cheia de doçura e um olhar leal, o Thor prova que o amor maduro é o mais paciente e acolhedor que você pode encontrar!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Tranquilo, leal e paciente</li>
-                            <li><strong>Saúde:</strong> Castrado, vacinado e vermifugado</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 4: Luna -->
-        <div class="modal fade" id="modalLuna" tabindex="-1" aria-labelledby="modalLunaLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalLunaLabel">Perfil da Luna</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com olhinhos cheios de curiosidade e um ronronar aconchegante, a pequena Luna está pronta para saltar direto para o seu coração!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Curiosa, brincalhona e carinhosa</li>
-                            <li><strong>Saúde:</strong> Vacinada e vermifugada (castração agendada)</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 5: Simba -->
-        <div class="modal fade" id="modalSimba" tabindex="-1" aria-labelledby="modalSimbaLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalSimbaLabel">Perfil do Simba</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com seu charmoso smoking natural e um olhar sereno, o Simba está pronto para ser o pequeno rei do aconchego no seu lar!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Observador, calmo e afetuoso</li>
-                            <li><strong>Saúde:</strong> Castrado, vacinado e vermifugado</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 6: Oliver -->
-        <div class="modal fade" id="modalOliver" tabindex="-1" aria-labelledby="modalOliverLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="modalOliverLabel">Perfil do Oliver</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p class="fst-italic text-primary">"Com seus olhos azuis profundos e um jeitinho elegante, o Oliver vai conquistar cada cantinho do seu coração e trazer muito charme para o seu dia a dia!"</p>
-                        <hr>
-                        <ul class="list-unstyled text-start">
-                            <li><strong>Temperamento:</strong> Elegante, dócil e apegado aos tutores</li>
-                            <li><strong>Saúde:</strong> Castrado, vacinado e vermifugado</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="contato.html" class="btn btn-success">Quero Adotar!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- Modal 1: Pipoca -->
+<div class="modal" tabindex="-1" id="modalPipoca">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Perfil do Pipoca</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Com um sorriso banguela e um olhar cheio de esperança, o Pipoca está pronto para ser a pipoquinha de milho mais amada da sua sala de estar!</p>
+        <ul class="list-unstyled text-start">
+            <li><strong>Temperamento:</strong> Brincalhão, dócil e muito sociável</li>
+            <li><strong>Saúde:</strong> Castrado, vacinado e vermifugado</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <a class="btn btn-success" href="contato.html">Quero adotar!</a>
+      </div>
+    </div>
+  </div>
+</div>
 
     <footer class="text-center py-3 bg-body-tertiary mt-5">
         <p>© 2026 Lar de Patas</p>
