@@ -39,64 +39,69 @@
   </div>
 </nav>  
 
-<main class="container my-4">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6">
-                    
-                    <div class="text-center mb-4">
-                        <h2>Fale Conosco</h1>
-                        <p class="text-muted">Tem alguma dúvida, sugestão ou quer enviar seu feedback? Entre em contato com a nossa equipe!</p>
-                    </div>
+<div class="container my-4">
+    <div class="text-center">
+        <h2 class="text-center">Fale Conosco</h2>
+    <p class="text-muted text-center">Tem alguma dúvida, sugestão ou quer enviar seu feedback? Entre em contato com a nossa equipe!</p>
+    </div>
 
-                    <div class="card shadow-sm p-4">
-                        <form>
-                            <!-- Campo Nome -->
-                            <div class="mb-3">
-                                <label for="nome" class="form-label fw-bold">Nome Completo</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" required>
-                            </div>
+    <div class="row justify-content-center">
+    
+    <div class="col-12 col-md-8 col-lg-6">
+        <div class="card">
+            <div class="card-body shadow-sm bg-light border p-4">
 
-                            <!-- Campo E-mail -->
-                            <div class="mb-3">
-                                <label for="email" class="form-label fw-bold">Endereço de E-mail</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="seu@email.com" required>
-                                <div id="emailHelp" class="form-text">Nunca vamos compartilhar seu e-mail com ninguém.</div>
-                            </div>
+<!--Criando formulário-->
+    <form>
+  <div class="mb-3">
+    <label for="nome" class="form-label fw-bold">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" required>
+  </div>
 
-                            <!-- Campo Assunto (Select) -->
-                            <div class="mb-3">
-                                <label for="assunto" class="form-label fw-bold">Assunto</label>
-                                <select class="form-select" id="assunto" required>
-                                    <option value="" selected disabled>Selecione o motivo do contato</option>
-                                    <option value="adocao">Dúvida sobre Adoção</option>
-                                    <option value="voluntario">Quero ser Voluntário</option>
-                                    <option value="feedback">Feedback ou Sugestão</option>
-                                    <option value="outro">Outro Assunto</option>
-                                </select>
-                            </div>
+<!--Campo email-->
+    <div class="mb-3">
+    <label for="email" class="form-label fw-bold">E-mail</label>
+    <input type="email" aria-describedby="emailHelp" class="form-control" id="email" placeholder="exemplo@gmail.com" required>
+    <div id="emailHelp" class="form-text">Nunca vamos compartilhar seu e-mail com ninguém.</div>
+  </div>
 
-                            <!-- Campo Mensagem (Textarea) -->
-                            <div class="mb-3">
-                                <label for="mensagem" class="form-label fw-bold">Mensagem</label>
-                                <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem ou feedback aqui..." required></textarea>
-                            </div>
+  <!--Campo Assunto-->
+  <div class="mb-3">
+    <label for="assunto" class="form-label fw-bold">Assunto</label>
+    <select class="form-select" id="assunto" required>
+        <option value="" selected disabled>Selecione o motivo do contato</option>
+        <option value="adocao">Dúvida sobre Adoção</option>
+        <option value="voluntario">Quero ser Voluntário</option>
+        <option value="feedback">Feedback ou Sugestão</option>
+        <option value="outro">Outro Assunto</option>
+    </select>
+    </div>
 
-                            <!-- Campo Checkbox -->
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="termosCheck" required>
-                                <label class="form-check-label" for="termosCheck">Concordo em receber novidades e informativos do Lar de Patas</label>
-                            </div>
+<!--Campo Mensagem-->
+  <div class="mb-3">
+    <label for="mensagem" class="form-label fw-bold">Mensagem</label>
+  <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem ou feedback aqui..." required></textarea>
+  </div>
 
-                            <!-- Botão de Envio -->
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
-                            </div>
-                        </form>
-                    </div>
+<!--Campo Checkbox-->
+    <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="termosCheck">
+    <label class="form-check-label" for="termosCheck">Concordo em receber novidades e informativos do Lar de Patas</label>
+    </div>
 
-                </div>
-            </div>
-        </main>
+<!--Botão de Envio-->
+    <div class="d-grid">
+        <button type="submit" class="btn btn-success btn-lg">Enviar Mensagem</button>
+    </div>
+
+    </form>
+        </div>
+    </div>
+    </div>
+
+</div>
+</div>
+
 
     <footer class="text-center py-3 bg-body-tertiary mt-5">
         <p>© 2026 Lar de Patas</p>
