@@ -19,3 +19,9 @@ body {
 .bg-body-tertiary .nav-link:hover {
     color: #4C8468 !important;
 }
+
+/*Títulos (h1, h2, h3) com o marrom suave ou verde escuro */
+h1, h2, h3, h4, h5, h6 {
+    color: #4A3F3A;
+}
+
