@@ -25,3 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4A3F3A;
 }
 
+/* Classe personalizada para os botões do site */
+.btn-patas {
+    background-color: #5E9C7E !important;
+    border-color: #4C8468 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
