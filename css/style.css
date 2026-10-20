@@ -3,3 +3,7 @@ body {
     color: black !important;
     font-family: 'Nunito', 'Quicksand', sans-serif;
     }   
+
+.bg-body-tertiary{
+    background-color: #FDE2D3 !important;
+}
